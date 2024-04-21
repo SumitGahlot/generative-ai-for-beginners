@@ -1,8 +1,8 @@
 # Building Low Code AI Applications
 
-[![Building Low Code AI Applications](./images/10-lesson-banner.png)](https://youtu.be/XX8491SAF44)
+[![Building Low Code AI Applications](./images/10-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://learn.microsoft.com/_themes/docs.theme/master/en-us/_themes/global/video-embed.html?id=170c6cb7-3c96-40f2-a354-b6f0ec523de7?WT.mc_id=academic-105485-koreyst)
 
-> *(Click the image above to view video of this lesson)*
+> _(Click the image above to view video of this lesson)_
 
 ## Introduction
 
@@ -10,7 +10,7 @@ Now that we've learned how to build image generating applications, let's talk ab
 
 Building apps and solutions has become more easier for traditional developers and non-developers through the use of Low Code Development Platforms. Low Code Development Platforms enable you to build apps and solutions with little to no code. This is achieved by providing a visual development environment that enables you to drag and drop components to build apps and solutions. This enables you to build apps and solutions faster and with less resources. In this lesson, we dive deep into how to use Low Code and how to enhance low code development with AI using Power Platform.
 
-The Power Platform provides organizations with the opportunity to empower their teams to build their own solutions through an intuitive low-code or no-code environment. This environment helps simplify the process of building solutions. With Power Platform, solutions can be built in days or weeks instead of months or years. Power Platform consists of five key products: Power Apps, Power Automate, Power BI, Power Pages and Power Virtual Agents.
+The Power Platform provides organizations with the opportunity to empower their teams to build their own solutions through an intuitive low-code or no-code environment. This environment helps simplify the process of building solutions. With Power Platform, solutions can be built in days or weeks instead of months or years. Power Platform consists of five key products: Power Apps, Power Automate, Power BI, Power Pages and Copilot Studio.
 
 This lesson covers:
 
@@ -43,7 +43,7 @@ The tools and technologies that you will use in this lesson are:
 
 ## Generative AI in Power Platform
 
-Enhancing low-code development and application with generative AI is a key focus area for Power Platform. The goal is to enable everyone to build AI-powered apps, sites, dashboards and automate processes with AI, *without requiring any data science expertise*. This goal is achieved by integrating generative AI into the low-code development experience in Power Platform in the form of Copilot and AI Builder.
+Enhancing low-code development and application with generative AI is a key focus area for Power Platform. The goal is to enable everyone to build AI-powered apps, sites, dashboards and automate processes with AI, _without requiring any data science expertise_. This goal is achieved by integrating generative AI into the low-code development experience in Power Platform in the form of Copilot and AI Builder.
 
 ### How does this work?
 
@@ -79,21 +79,21 @@ The educators at our startup have been struggling to keep track of student assig
 
 You will build the app using Copilot in Power Apps following the steps below:
 
-1. Navigate to the [Power Apps](https://make.powerapps.com) home screen.
+1. Navigate to the [Power Apps](https://make.powerapps.com?WT.mc_id=academic-105485-koreyst) home screen.
 
-1. Use the text area on the home screen to describe the app you want to build. For example, ***I want to build an app to track and manage student assignments***. Click on the **Send** button to send the prompt to the AI Copilot.
+1. Use the text area on the home screen to describe the app you want to build. For example, **_I want to build an app to track and manage student assignments_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
- ![Describe the app you want to build](images/copilot-chat-prompt-powerapps.png)
+![Describe the app you want to build](./images/copilot-chat-prompt-powerapps.png?WT.mc_id=academic-105485-koreyst)
 
 1. The AI Copilot will suggest a Dataverse Table with the fields you need to store the data you want to track and some sample data. You can then customize the table to meet your needs using the AI Copilot assistant feature through conversational steps.
 
-    > **Important**: Dataverse is the underlying data platform for Power Platform. It is a low-code data platform for storing the app's data. It is a fully managed service that securely stores data in the Microsoft Cloud and is provisioned within your Power Platform environment. It comes with built-in data governance capabilities, such as data classification, data lineage, fine-grained access control, and more. You can learn more about Dataverse [here](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro?WT.mc_id=academic-109639-somelezediko).
+   > **Important**: Dataverse is the underlying data platform for Power Platform. It is a low-code data platform for storing the app's data. It is a fully managed service that securely stores data in the Microsoft Cloud and is provisioned within your Power Platform environment. It comes with built-in data governance capabilities, such as data classification, data lineage, fine-grained access control, and more. You can learn more about Dataverse [here](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro?WT.mc_id=academic-109639-somelezediko).
 
-   ![Suggested fields in your new table](images/copilot-dataverse-table-powerapps.png)
+   ![Suggested fields in your new table](./images/copilot-dataverse-table-powerapps.png?WT.mc_id=academic-105485-koreyst)
 
-1. Educators want to send emails to the students who have submitted their assignments to keep them updated on the progress of their assignments. You can use Copilot to add a new field to the table to store the student email. For example, you can use the following prompt to add a new field to the table: ***I want to add a column to store student email***. Click on the **Send** button to send the prompt to the AI Copilot.
+1. Educators want to send emails to the students who have submitted their assignments to keep them updated on the progress of their assignments. You can use Copilot to add a new field to the table to store the student email. For example, you can use the following prompt to add a new field to the table: **_I want to add a column to store student email_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-![Adding a new field](images/copilot-new-column.png)
+![Adding a new field](./images/copilot-new-column.png?WT.mc_id=academic-105485-koreyst)
 
 1. The AI Copilot will generate a new field and you can then customize the field to meet your needs.
 
@@ -101,9 +101,9 @@ You will build the app using Copilot in Power Apps following the steps below:
 
 1. The AI Copilot will generate a responsive Canvas app based on your description. You can then customize the app to meet your needs.
 
-1. For educators to send emails to students, you can use Copilot to add a new screen to the app. For example, you can use the following prompt to add a new screen to the app: ***I want to add a screen to send emails to students***. Click on the **Send** button to send the prompt to the AI Copilot.
+1. For educators to send emails to students, you can use Copilot to add a new screen to the app. For example, you can use the following prompt to add a new screen to the app: **_I want to add a screen to send emails to students_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-![Adding a new screen via a prompt instruction](images/copilot-new-screen.png)
+![Adding a new screen via a prompt instruction](./images/copilot-new-screen.png?WT.mc_id=academic-105485-koreyst)
 
 1. The AI Copilot will generate a new screen and you can then customize the screen to meet your needs.
 
@@ -131,25 +131,25 @@ Why should we use Dataverse for our startup? The standard and custom tables with
 
 Now that you know what Dataverse is and why you should use it, let's look at how you can use Copilot to create a table in Dataverse to meet the requirements of our finance team.
 
->**Note** : You will use this table in the next section to build an automation that will extract all the invoice information and store it in the table.
+> **Note** : You will use this table in the next section to build an automation that will extract all the invoice information and store it in the table.
 
 To create a table in Dataverse using Copilot, follow the steps below:
 
-1. Navigate to the [Power Apps](https://make.powerapps.com) home screen.
+1. Navigate to the [Power Apps](https://make.powerapps.com?WT.mc_id=academic-105485-koreyst) home screen.
 
 2. On the left navigation bar, select on **Tables** and then click on **Describe the new Table**.
 
-![Select new table](images/describe-new-table.png)
+![Select new table](./images/describe-new-table.png?WT.mc_id=academic-105485-koreyst)
 
-1. On the **Describe the new Table** screen, use the text area to describe the table you want to create. For example, ***I want to create a table to store invoice information***. Click on the **Send** button to send the prompt to the AI Copilot.
+1. On the **Describe the new Table** screen, use the text area to describe the table you want to create. For example, **_I want to create a table to store invoice information_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-![Describe the table](images/copilot-chat-prompt-dataverse.png)
+![Describe the table](./images/copilot-chat-prompt-dataverse.png?WT.mc_id=academic-105485-koreyst)
 
 1. The AI Copilot will suggest a Dataverse Table with the fields you need to store the data you want to track and some sample data. You can then customize the table to meet your needs using the AI Copilot assistant feature through conversational steps.
 
-![Suggested Dataverse table](images/copilot-dataverse-table.png)
+![Suggested Dataverse table](./images/copilot-dataverse-table.png?WT.mc_id=academic-105485-koreyst)
 
-1. The finance team wants to send an email to the supplier to update them with the current status of their invoice. You can use Copilot to add a new field to the table to store the supplier email. For example, you can use the following prompt to add a new field to the table: ***I want to add a column to store supplier email***. Click on the **Send** button to send the prompt to the AI Copilot.
+1. The finance team wants to send an email to the supplier to update them with the current status of their invoice. You can use Copilot to add a new field to the table to store the supplier email. For example, you can use the following prompt to add a new field to the table: **_I want to add a column to store supplier email_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
 1. The AI Copilot will generate a new field and you can then customize the field to meet your needs.
 
@@ -171,12 +171,12 @@ Some of the Prebuilt AI Models available in Power Platform include:
 - **Business Card Reader**: This model extracts information from business cards.
 - **Text Recognition**: This model extracts text from images.
 - **Object Detection**: This model detects and extracts objects from images.
-- **Form Processing**: This model extracts information from forms.
+- **Document processing**: This model extracts information from forms.
 - **Invoice Processing**: This model extracts information from invoices.
 
 With Custom AI Models you can bring your own model into AI Builder so that it can function like any AI Builder custom model, allowing you to train the model using your own data. You can use these models to automate processes and predict outcomes in both Power Apps and Power Automate. When using your own model there are limitations that apply. Read more on these [limitations](https://learn.microsoft.com/ai-builder/byo-model#limitations?WT.mc_id=academic-105485-koreyst).
 
-![AI builder models](images/ai-builder-models.png)
+![AI builder models](./images/ai-builder-models.png?WT.mc_id=academic-105485-koreyst)
 
 ## Assignment #2 - Build an Invoice Processing Flow for Our Startup
 
@@ -186,11 +186,11 @@ Now that you know what AI Builder is and why you should use it, let's look at ho
 
 To build a workflow that will help the finance team process invoices using the Invoice Processing AI Model in AI Builder, follow the steps below:
 
-1. Navigate to the [Power Automate](https://make.powerautomate.com) home screen.
+1. Navigate to the [Power Automate](https://make.powerautomate.com?WT.mc_id=academic-105485-koreyst) home screen.
 
-2. Use the text area on the home screen to describe the workflow you want to build. For example, ***Process an invoice when it arrives in my mailbox***. Click on the **Send** button to send the prompt to the AI Copilot.
+2. Use the text area on the home screen to describe the workflow you want to build. For example, **_Process an invoice when it arrives in my mailbox_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-    ![Copilot power automate](images/copilot-chat-prompt-powerautomate.png)
+   ![Copilot power automate](./images/copilot-chat-prompt-powerautomate.png?WT.mc_id=academic-105485-koreyst)
 
 3. The AI Copilot will suggest the actions you need to perform the task you want to automate. You can click on the **Next** button to go through the next steps.
 
@@ -204,7 +204,7 @@ To build a workflow that will help the finance team process invoices using the I
 
 8. Remove the **Condition** action from the flow because you will not be using it. It should look like the following screenshot:
 
-    ![power automate, remove actions](images/powerautomate-remove-actions.png)
+   ![power automate, remove actions](./images/powerautomate-remove-actions.png?WT.mc_id=academic-105485-koreyst)
 
 9. Click on the **Add an action** button and search for **Dataverse**. Select the **Add a new row** action.
 
@@ -219,7 +219,7 @@ To build a workflow that will help the finance team process invoices using the I
     - Status - Set the **Status** to **Pending**.
     - Supplier Email - Use the **From** dynamic content from the **When a new email arrives** trigger.
 
-    ![power automate add row](images/powerautomate-add-row.png)
+    ![power automate add row](./images/powerautomate-add-row.png?WT.mc_id=academic-105485-koreyst)
 
 12. Once you are done with the flow, click on the **Save** button to save the flow. You can then test the flow by sending an email with an invoice to the folder you specified in the trigger.
 
@@ -233,12 +233,12 @@ GPT models undergo extensive training on vast amounts of data, enabling them to 
 
 For example, you can build flows to automatically generate text for a variety of use cases, such as: drafts of emails, product descriptions, and more. You can also use the model to generate text for a variety of apps, such as chatbots and customer service apps that enable customer service agents to respond effectively and efficiently to customer inquiries.
 
-![create a prompt](images/create-prompt-gpt.png)
+![create a prompt](./images/create-prompt-gpt.png?WT.mc_id=academic-105485-koreyst)
 
 To learn how to use this AI Model in Power Automate, go through the [Add intelligence with AI Builder and GPT](https://learn.microsoft.com/training/modules/ai-builder-text-generation/?WT.mc_id=academic-109639-somelezediko) module.
 
 ## Great Work! Continue Your Learning
 
-Want to learn more about building low-code Generative AI apps? Go to the [continued learning page](../13-continued-learning/README.md?WT.mc_id=academic-105485-koreyst) to find other great resources on this topic.
+After completing this lesson, check out our [Generative AI Learning collection](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) to continue leveling up your Generative AI knowledge!
 
-Head over to Lesson 11 where we will look at how to [integrate Generative AI with Function Calling](/11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
+Head over to Lesson 11 where we will look at how to [integrate Generative AI with Function Calling](../11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst)!
